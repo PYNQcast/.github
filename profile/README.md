@@ -10,7 +10,7 @@ and the ARM Cortex-A9 managing game logic and networking.
 
 | Repo | Description |
 |------|-------------|
-| [ClientSide_PYNQ_jupyter](https://github.com/PYNQcast/ClientSide_PYNQ_jupyter) | Bitstream, HWH file, and Python game script — everything needed to run PYNQcast on a PYNQ-Z1 out of the box |
+| [ClientSide_PYNQ_jupyter](https://github.com/PYNQcast/ClientSide_PYNQ_jupyter) | Bitstream, HWH file, and Python game script — everything needed to run PYNQcast on a PYNQ-Z1 out of the box (Server should be running, *.pem will be provided if needed)|
 | [HardwareSide_PYNQ_Raycaster](https://github.com/PYNQcast/HardwareSide_PYNQ_Raycaster) | Full Vivado project and SystemVerilog source for the DDA raycasting engine |
 | [ServerSide_PYNQ_Raycaster](https://github.com/PYNQcast/ServerSide_PYNQ_Raycaster) | AWS-hosted game server handling player registration, match state, and UDP tick protocol |
 
