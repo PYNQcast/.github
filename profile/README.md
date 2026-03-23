@@ -34,9 +34,9 @@ the instructions in its README. The hardware and server repos are provided for r
 
 ---
 
-## Demo
+## Explanation Video
 
-[Watch the demo video](https://youtube.com/your-video)
+[Watch the explanation video here]([https://youtube.com/your-video](https://www.youtube.com/watch?v=tlCdY_SkK-g))
 
 --<img width="3053" height="2228" alt="Main_architecture" src="https://github.com/user-attachments/assets/de1d4e53-3b09-4547-8572-446aa6dc2ea6" />
 
