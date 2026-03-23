@@ -1,9 +1,37 @@
-PYNQcast is a multiplayer first-person raycasting game en-
-gine and cloud-hosted development platform built on an
-IoT architecture. PYNQ-Z1 FPGA nodes render scenes en-
-tirely in synthesised hardware, synchronising with a cloud-
-authoritative EC2 server over UDP. The server resolves game
-state across all nodes and exposes a browser-based develop-
-ment environment; demonstrating hardware-accelerated ren-
-dering, bidirectional multi-node communication, and cloud-
-authoritative state management within an IoT framework.
+# PYNQcast
+
+A multiplayer raycasting game engine built on PYNQ-Z1 FPGA boards with a cloud-hosted AWS game server.
+Players connect over UDP, with the FPGA handling real-time rendering via a hardware DDA raycasting engine
+and the ARM Cortex-A9 managing game logic and networking.
+
+---
+
+## Repositories
+
+| Repo | Description |
+|------|-------------|
+| [ClientSide_PYNQ_jupyter](https://github.com/your-org/ClientSide_PYNQ_jupyter) | Bitstream, HWH file, and Python game script — everything needed to run PYNQcast on a PYNQ-Z1 out of the box |
+| [HardwareSide_PYNQ_Raycaster](https://github.com/your-org/HardwareSide_PYNQ_Raycaster) | Full Vivado project and SystemVerilog source for the DDA raycasting engine |
+| [ServerSide_PYNQ_Raycaster](https://github.com/your-org/ServerSide_PYNQ_Raycaster) | AWS-hosted game server handling player registration, match state, and UDP tick protocol |
+
+---
+
+## Getting Started
+
+To play, only **ClientSide_PYNQ_jupyter** is required. Clone it onto your PYNQ-Z1 board and follow
+the instructions in its README. The hardware and server repos are provided for reference and reproducibility.
+
+---
+
+## Built With
+
+- PYNQ-Z1 (Zynq-7020 SoC)
+- SystemVerilog / Vivado
+- Python / PYNQ framework
+- AWS (EC2, Redis, DynamoDB, S3)
+
+---
+
+## Demo
+
+[Watch the demo video](https://youtube.com/your-video)
