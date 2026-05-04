@@ -40,4 +40,9 @@ the instructions in its README. The hardware and server repos are provided for r
 
 --<img width="3053" height="2228" alt="Main_architecture" src="https://github.com/user-attachments/assets/de1d4e53-3b09-4547-8572-446aa6dc2ea6" />
 
+---
+
+## Report
+
+[Report](https://github.com/PYNQcast/report) | Check out the full report here
 
